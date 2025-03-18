@@ -9,7 +9,7 @@ This package provides a simple and easy-to-use interface to interact with the **
 You can install the package via Composer:
 
 ```bash
-composer require bajjour/billplz
+composer require bajjour/billplz-pkg
 ```
 
 ## Configuration
@@ -17,7 +17,7 @@ composer require bajjour/billplz
 After installing the package, publish the configuration file:
 
 ```bash
-php artisan vendor:publish --provider="YourVendor\BillplzPaymentGateway\BillplzServiceProvider" --tag="config"
+php artisan vendor:publish --provider="bajjour\BillplzPaymentGateway\BillplzServiceProvider" --tag="config"
 ```
 
 Update your .env file with your Billplz API credentials:

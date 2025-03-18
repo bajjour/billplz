@@ -24,6 +24,6 @@ class BillplzServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../config/billplz.php' => config_path('billplz.php'),
-        ], 'billplz-config');
+        ], 'config');
     }
 }

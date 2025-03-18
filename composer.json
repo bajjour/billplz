@@ -20,7 +20,7 @@
         "Billplz\\BillplzServiceProvider"
       ],
       "aliases": {
-        "Billplz": "BillplzPkg\\Facades\\Billplz"
+        "Billplz": "Billplz\\Facades\\Billplz"
       }
     }
   },

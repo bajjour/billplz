@@ -17,7 +17,7 @@ composer require bajjour/billplz-pkg
 After installing the package, publish the configuration file:
 
 ```bash
-php artisan vendor:publish --provider="bajjour\BillplzPaymentGateway\BillplzServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Billplz\BillplzServiceProvider" --tag="billplz-config"
 ```
 
 Update your .env file with your Billplz API credentials:

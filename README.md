@@ -9,7 +9,7 @@ This package provides a simple and easy-to-use interface to interact with the **
 You can install the package via Composer:
 
 ```bash
-composer require your-vendor/billplz-payment-gateway
+composer require bajjour/billplz
 ```
 
 ## Configuration

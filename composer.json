@@ -1,5 +1,5 @@
 {
-  "name": "bajjour/billplz-pkg",
+  "name": "bajjour/billplz",
   "version": "1.0.0",
   "description": "A Laravel package for Billplz payment gateway",
   "type": "library",
